@@ -2,7 +2,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
-let proxyIP = '';
+let proxyIP = 'ProxyIP.KR.CMLiussss.net';
 let DNS64Server = '';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
@@ -44,7 +44,7 @@ let userIDLow;
 let userIDTime = "";
 let proxyIPPool = [];
 let path = '/?ed=2560';
-let 动态UUID = userID;
+let 动态UUID = 9fc0019f-67e1-4ca4-b916-4b1cbc2236f0;
 let link = [];
 let banHosts = [atob('c3BlZWQuY2xvdWRmbGFyZS5jb20=')];
 let SCV = 'true';
@@ -4568,4 +4568,5 @@ async function nginx() {
 	`
     return text;
 }
+
 
